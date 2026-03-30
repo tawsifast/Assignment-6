@@ -15,16 +15,18 @@ function App() {
   
 const productPromise = fetchProducts();
 
+ const [cart, setCart] = useState([]);
+
  const [money, setMoney] = useState(0);
 
   return (
     <>
-     <Navbar></Navbar>
+     <Navbar cart={cart} setCart={setCart}></Navbar>
      <Banner></Banner>
      <BottomBanner></BottomBanner>
      <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
 
-     <DigitalTools productPromise={productPromise} money={money} setMoney={setMoney}></DigitalTools>
+     <DigitalTools productPromise={productPromise} money={money} setMoney={setMoney} cart={cart} setCart={setCart}></DigitalTools>
 
      </Suspense>
     </>

@@ -2,7 +2,7 @@ import React, { use, useState } from 'react';
 import AvailableProducts from './AvailableProducts/AvailableProducts';
 import SelectedProducts from './SelectedProducts/SelectedProducts';
 
-const DigitalTools = ({productPromise, money, setMoney}) => {
+const DigitalTools = ({productPromise, money, setMoney, cart, setCart}) => {
 
     // console.log(productPromise);
     const products = use(productPromise);
@@ -13,7 +13,7 @@ const DigitalTools = ({productPromise, money, setMoney}) => {
     console.log("selectedType", selectedType);
 
     // For updating cart
-    const [cart, setCart] = useState([]);
+   
 
     return (
 

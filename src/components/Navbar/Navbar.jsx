@@ -1,7 +1,7 @@
 import React from 'react';
 import navimg from "../../assets/shopping-cart.png"
 
-const Navbar = () => {
+const Navbar = ({cart}) => {
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm w-11/12 mx-auto">
@@ -35,8 +35,15 @@ const Navbar = () => {
       <li><a>FAQ</a></li>
     </ul>
   </div>
-  <div className="navbar-end gap-8">
-    <img src={navimg} alt="" />
+  <div className="navbar-end gap-8 relative">
+    <img className='' src={navimg} alt="" />
+    {
+    cart.length > 0 && (
+      <span className="absolute -top-1 right-49 bg-red-500 text-white text-xs px-1.5 py-0.5 rounded-full">
+        {cart.length}
+      </span>
+    )
+  }
     <p>Login</p>
     <button className="btn btn-primary">Get Started</button>
   </div>
