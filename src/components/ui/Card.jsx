@@ -2,6 +2,7 @@
 import { FcCheckmark } from 'react-icons/fc';
 import { FaFileAlt, FaRobot, FaGlobe, FaTasks, FaLinkedin, FaUserTie, FaBriefcase, 
 FaChartBar } from "react-icons/fa";
+import { toast } from 'react-toastify';
 
 const iconMap = {FaFileAlt,FaRobot,FaGlobe,FaTasks,FaLinkedin,FaUserTie, FaBriefcase, FaChartBar };
 
@@ -15,14 +16,14 @@ const selected = cart.some(item => item.id == product.id);
 
 
 const handleChoosePlayer = () =>{
-
+    toast.success("added successfully")
     if (selected === true) {
         return;
-        }
+    }
     setCart([...cart, product])
     // setisSelected(true);
     setMoney(money + product.price)
-    }
+}
 
     const Icon = iconMap[product.icon];
     return (

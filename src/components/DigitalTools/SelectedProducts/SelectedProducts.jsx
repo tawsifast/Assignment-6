@@ -1,4 +1,5 @@
 
+import { toast } from "react-toastify";
 import noItemImg from "../../../assets/shopping-cart.png"
 
 const SelectedProducts = ({ cart, setCart, setMoney, money}) => {
@@ -7,7 +8,7 @@ const SelectedProducts = ({ cart, setCart, setMoney, money}) => {
  
 //   setMoney()
 const clearingCart = () => {
-
+    toast.error("Product sent for checkout")
     setCart([]);
 }
 
@@ -16,6 +17,7 @@ const clearingCart = () => {
     const filteredProduct = cart.filter((selectProduct) => 
     selectProduct.name !== product.name);
     setCart(filteredProduct);
+    toast.error("Prodect removed")
     setMoney(money - product.price)
     
   }

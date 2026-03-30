@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner'
 import BottomBanner from './components/BottomBanner/BottomBanner'
 import DigitalTools from './components/DigitalTools/DigitalTools'
 import Navbar from './components/Navbar/Navbar'
+import { ToastContainer } from 'react-toastify'
 
 const fetchProducts = async() => {
   const res = fetch("/data.json");
@@ -29,6 +30,7 @@ const productPromise = fetchProducts();
      <DigitalTools productPromise={productPromise} money={money} setMoney={setMoney} cart={cart} setCart={setCart}></DigitalTools>
 
      </Suspense>
+     <ToastContainer />
     </>
   )
 }
