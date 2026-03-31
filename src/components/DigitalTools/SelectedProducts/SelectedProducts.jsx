@@ -17,7 +17,7 @@ const clearingCart = () => {
     const filteredProduct = cart.filter((selectProduct) => 
     selectProduct.name !== product.name);
     setCart(filteredProduct);
-    toast.error("Prodect removed")
+    toast.error("Product removed")
     setMoney(money - product.price)
     
   }
