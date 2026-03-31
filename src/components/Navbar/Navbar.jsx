@@ -39,7 +39,7 @@ const Navbar = ({cart}) => {
     <img className='' src={navimg} alt="" />
     {
     cart.length > 0 && (
-      <span className="absolute -top-1 right-49 bg-red-500 text-white text-xs px-1.5 py-0.5 rounded-full">
+      <span className="absolute -top-1 right-51 bg-red-500 text-white text-xs px-1.5 py-0.5 rounded-full">
         {cart.length}
       </span>
     )
