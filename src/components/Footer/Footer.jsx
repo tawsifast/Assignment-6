@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-    <footer className="  bg-[#101727] text-white  p-10">
+    <footer className="  bg-[#101727] text-white  p-20">
     <div className='footer sm:footer-horizontal w-11/12 mx-auto'>
          <nav>
     <h6 className="footer-title">DigitalTools</h6>
@@ -70,7 +70,7 @@ const Footer = () => {
   </nav>
 </div>
 
-  <hr className='opacity-40 mt-10'/>
+  <hr className='opacity-40 my-8'/>
   <footer className="footer sm:footer-horizontal footer-center  p-4 text-white">
   <aside className='flex justify-between w-11/12'>
     <p> @ {new Date().getFullYear()}  - All right reserved</p>
