@@ -4,7 +4,7 @@ import { FaFileAlt, FaRobot, FaGlobe, FaTasks, FaLinkedin, FaUserTie, FaBriefcas
 FaChartBar } from "react-icons/fa";
 import { toast } from 'react-toastify';
 
-const iconMap = {FaFileAlt,FaRobot,FaGlobe,FaTasks,FaLinkedin,FaUserTie, FaBriefcase, FaChartBar };
+// const iconMap = {FaFileAlt,FaRobot,FaGlobe,FaTasks,FaLinkedin,FaUserTie, FaBriefcase, FaChartBar };
 
 
 
@@ -25,13 +25,14 @@ const handleChoosePlayer = () =>{
     setMoney(money + product.price)
 }
 
-    const Icon = iconMap[product.icon];
+    // const Icon = iconMap[product.icon];
     return (
         <div>
             <div className="card bg-base-100 h-full shadow-sm ">
   <div className="card-body flex flex-col h-full">
-    <div className='flex justify-between'>
-         {Icon && <Icon className="text-gray-400" />}
+    <div className='flex justify-between items-center mb-5'>
+         {/* {Icon && <Icon className="text-gray-400" />} */}
+         <img src={product.img} alt="" />
         <span className="badge badge-xs badge-warning">{product.tag}</span>
     </div>
     <div className="space-y-3">

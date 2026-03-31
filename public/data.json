@@ -7,6 +7,7 @@
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
+    "img":"../src/assets/writing_2327400 1.png",
     "features": [
       "100+ templates",
       "ATS optimization",
@@ -24,6 +25,7 @@
     "period": "monthly",
     "tag": "New",
     "tagType": "new",
+    "img":"../src/assets/design-tool.png",
     "features": [
       "AI writing assistant",
       "Multiple formats",
@@ -40,6 +42,7 @@
     "period": "one-time",
     "tag": "Best Seller",
     "tagType": "best-seller",
+    "img":"../src/assets/Group 7.png",
     "features": [
       "Responsive design",
       "Custom domains",
@@ -56,6 +59,7 @@
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
+    "img":"../src/assets/operation.png",
     "features": [
       "Application tracking",
       "Interview reminders",
@@ -72,6 +76,7 @@
     "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best-seller",
+    "img": "../src/assets/portfolio.png",
     "features": [
       "Profile analysis",
       "Keyword optimization",
@@ -88,6 +93,7 @@
     "period": "one-time",
     "tag": "Popular",
     "tagType": "popular",
+    "img":"../src/assets/social-media.png",
     "features": [
       "Common questions",
       "Mock interviews",
@@ -104,6 +110,7 @@
     "period": "monthly",
     "tag": "New",
     "tagType": "new",
+    "img":"../src/assets/Group 7.png",
     "features": [
       "Invoice generator",
       "Client management",
@@ -120,6 +127,7 @@
     "period": "yearly",
     "tag": "Best Seller",
     "tagType": "best-seller",
+    "img":"../src/assets/social-media.png",
     "features": [
       "Multiple skill tests",
       "Instant results",
