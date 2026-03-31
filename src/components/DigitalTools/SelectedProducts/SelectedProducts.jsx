@@ -31,7 +31,7 @@ const clearingCart = () => {
       
       : cart.map((product) => {
         return <div key={product.id}>
-            <div className="w-9/12 mx-auto space-y-3 p-8 mb-5">
+            <div className="w-9/12 mx-auto space-y-3 p-0 md:p-8 mb-5">
                 <h1 className="font-bold text-2xl mb-5">Your Cart</h1>
             <div className="flex justify-between">
                 <div>
