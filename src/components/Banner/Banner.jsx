@@ -1,6 +1,7 @@
 import React from 'react';
 import bannerimg from "../../assets/banner.png"
 import { CiPlay1 } from 'react-icons/ci';
+import badgeimg from "../../assets/Group 5 (1).png"
 
 
 const Banner = () => {
@@ -13,7 +14,8 @@ const Banner = () => {
       className="max-w-sm rounded-lg shadow-2xl"
     />
     <div className='space-y-3 text-center'>
-     <div className="badge badge-soft badge-primary">
+     <div className="badge badge-soft badge-primary p-3 rounded-full">
+        <img src={badgeimg} alt="" />
         <p>New: AI-Powered Tools Available</p>
     </div>
 
