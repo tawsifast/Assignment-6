@@ -4,7 +4,7 @@ import Card from "../ui/Card";
 const TransparentPricing = () => {
   return (
     <div >
-        <div className="w-11/12 mx-auto card bg-base-100 shadow-sm mt-20 grid grid-cols-1 md:grid-cols-3 gap-5 h-full mb-20 p-5">
+        <div className="w-11/12 mx-auto card bg-base-100 shadow-sm mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 h-full mb-20 p-5">
   <div className="card-body h-full rounded-xl shadow-xl">
    
     <div className="flex flex-col justify-between space-y-3">

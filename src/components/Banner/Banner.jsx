@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <div>
             <div className="hero bg-base-200 w-11/12 mx-auto ">
-  <div className="hero-content flex flex-col md:flex-row-reverse justify-between items-center gap-30 ">
+  <div className="hero-content flex flex-col lg:flex-row-reverse justify-between items-center gap-30 ">
     <img
       src={bannerimg}
       className="max-w-sm rounded-lg shadow-2xl"

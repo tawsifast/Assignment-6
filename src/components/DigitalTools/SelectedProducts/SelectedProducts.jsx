@@ -34,8 +34,8 @@ const clearingCart = () => {
             <div className="w-9/12 mx-auto space-y-3 p-0 md:p-8 mb-5">
                 <h1 className="font-bold text-2xl mb-5">Your Cart</h1>
             <div className="flex justify-between">
-                <div>
-                    <img src="" alt="" />
+                <div className="flex items-center justify-center gap-5">
+                    <img src={product.img} alt="" />
                     <div>
                         <h1 className="font-semibold mb-2">{product.name}</h1>
                         <p className="font-semibold">${product.price}</p>

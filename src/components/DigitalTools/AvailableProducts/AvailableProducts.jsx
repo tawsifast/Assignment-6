@@ -6,7 +6,7 @@ const AvailableProducts = ({products, cart, setCart, setMoney, money}) => {
     console.log(products);
     return (
     <div>
-        <div className='w-11/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-stretch'>
+        <div className='w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-stretch'>
     {
         products.map((product) => {
         console.log(product);
