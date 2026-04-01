@@ -42,7 +42,7 @@
     "period": "one-time",
     "tag": "Best Seller",
     "tagType": "best-seller",
-    "img":"/public/images/group7.png",
+    "img":"/images/group7.png",
     "features": [
       "Responsive design",
       "Custom domains",
@@ -110,7 +110,7 @@
     "period": "monthly",
     "tag": "New",
     "tagType": "new",
-    "img":"/public/images/group7.png",
+    "img":"/images/group7.png",
     "features": [
       "Invoice generator",
       "Client management",
