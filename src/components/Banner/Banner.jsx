@@ -1,7 +1,7 @@
 import React from 'react';
 import bannerimg from "../../assets/banner.png"
 import { CiPlay1 } from 'react-icons/ci';
-import badgeimg from "../../assets/Group 5 (1).png"
+import badgeimg from "../../assets/group5.png"
 
 
 const Banner = () => {
