@@ -8,7 +8,7 @@ const SelectedProducts = ({ cart, setCart, setMoney, money}) => {
  
 //   setMoney()
 const clearingCart = () => {
-    toast.error("Product sent for checkout")
+    toast.info("Product sent for checkout")
     setCart([]);
 }
 
