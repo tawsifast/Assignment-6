@@ -10,7 +10,7 @@ const WorkFlow = () => {
           work smarter. <br /> Start your free trial today.
         </p>
         <div className="space-x-3">
-        <button class="btn bg-white">Explore Products</button>
+        <button className="btn bg-white">Explore Products</button>
           <button className="btn btn-primary">View Pricing</button>
         </div>
         <p className="text-center">14-day free trial • No credit card required • Cancel anytime</p>

@@ -42,7 +42,7 @@ const handleChoosePlayer = () =>{
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs grow">
         {
-            (product.features).map((feature) => <li className='flex items-center gap-2 text-[14px]'><FcCheckmark /> {feature}</li>)
+            (product.features).map((feature, ind) => <li key={ind}  className='flex items-center gap-2 text-[14px]'><FcCheckmark /> {feature}</li>)
         }
     </ul>
     <div className="mt-6">

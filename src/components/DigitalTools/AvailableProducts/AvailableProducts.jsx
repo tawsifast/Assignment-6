@@ -11,7 +11,7 @@ const AvailableProducts = ({products, cart, setCart, setMoney, money}) => {
         products.map((product) => {
         console.log(product);
         return(
-        <Card product={product} cart={cart} setCart={setCart} money={money} setMoney={setMoney}></Card>
+        <Card key={product.id} product={product} cart={cart} setCart={setCart} money={money} setMoney={setMoney}></Card>
         
     )
 })}

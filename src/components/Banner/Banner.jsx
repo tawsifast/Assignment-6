@@ -27,7 +27,7 @@ const Banner = () => {
       </p>
       <div className='flex justify-center md:items-center gap-4'>
         <button className="btn btn-primary">Explore Products</button>
-        <button class="btn btn-outline btn-primary"><CiPlay1 />Watch Demo</button>
+        <button className="btn btn-outline btn-primary"><CiPlay1 />Watch Demo</button>
       </div>
       
     </div>
